@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>FLIP COIN</title>
+</head>
+<style>
+  .alignment{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+  }
+  .btn{
+    background:transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .headsidecoin,
+  .tailsidecoin
+  {
+    width: 60px;
+   
+  }
+  .coin-title{
+    color:rebeccapurple;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .headings{
+    font-style: oblique;
+    text-shadow:1px 4px 6px brown;
+    text-align: center;
+  }
+  .reset-button{
+    height:60px;
+    width: 60px;
+    border-radius: 100%;
+    margin-left: 20px;
+    background: transparent;
+    border-color:aqua;
+    cursor: pointer;
+  }
+  .score{
+    text-align: center;
+  }
+  
+</style>
+<body>
+<h1 class="headings">FLIP COIN GAME</h1>
+<div class="alignment"></div>
+
+<div class="score js-score"></div>
+
+<script src="scripts/flipgame.js" >
+    
+  </script>
+</body>
+
+</html>
